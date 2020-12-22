@@ -1,0 +1,68 @@
+body {
+    background-image: url("/images/background.svg");
+    background-repeat: no-repeat;
+    background-position-x: 20em;
+    background-position-y: bottom 5em;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.projects {
+    display: flex;
+}
+
+.card {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-size: $small-font-size;
+}
+
+.card-text {
+    font-family: $font-family-text;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.card-height {
+    min-height: 275px;
+}
+
+.status-done {
+}
+
+.btn-delete {
+    background: url("/images/trash.svg");
+    background-repeat: no-repeat;
+    background-size: 1.1rem 1.1rem;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 8px;
+    border: 0px;
+    outline: none;
+    
+}
+
+.user-image {
+    width: 2em;
+    height: 2em;
+}
+
+.custom-file-label::after {
+    background-color: #4e2398;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5em;
+}
