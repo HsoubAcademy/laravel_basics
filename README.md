@@ -7,7 +7,7 @@
 <h2 dir="rtl"> خطوات تثبيت المشروع: </h2>
 
 <ul dir="rtl">
-<li><code>$ git clone https://github.com/HsoubAcademy/laravel_basics.git</code></li>
+<li><code>git clone https://github.com/HsoubAcademy/laravel_basics.git</code></li>
 <li>إنشاء الملف .env  وتعيين قيم الإتصال بقاعدة البيانات</li>
 <li><code>composer install</code></li>
 <li><code>php artisan migrate --seed</code></li>
