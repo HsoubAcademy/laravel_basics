@@ -10,6 +10,7 @@
 <li><code>git clone https://github.com/HsoubAcademy/laravel_basics.git</code></li>
 <li>إنشاء الملف .env  وتعيين قيم الإتصال بقاعدة البيانات</li>
 <li><code>composer install</code></li>
+<li><code>npm install</code></li>
 <li><code>php artisan migrate --seed</code></li>
 <li><code>php artisan storage:link</code></li>
 <li><code>php artisan key:generate</code></li>
